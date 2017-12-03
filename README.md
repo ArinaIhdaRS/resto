@@ -1,2 +1,0 @@
-# resto
-kelompok 7
