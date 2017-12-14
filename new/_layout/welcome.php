@@ -1,15 +1,10 @@
-		
-		<div id="fh5co-main">
-		<!-- nav atas -->
-			<div class="w3-top">
-  				<div class="w3-white w3-xlarge" style="max-width:100%;margin:auto">
-    				<!--<div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">
-    					<span style="margin-left:100%"><i class="icon-check-circle-o"></i></span>
-    				</div>-->
-    				<div class="w3-center w3-padding-16">Welcome</div>
-  				</div>
-			</div>
-		<!--nav atas -->
+<div id="fh5co-main">
+    <!-- nav atas -->
+      <div class="w3-top">
+          <div class="w3-white w3-xlarge" style="max-width:100%;margin:auto">
+            <div class="w3-center w3-padding-16"><?=$heads ?></div>
+          </div>
+      </div>
 
 		<!-- content -->
 			<div class="fh5co-cards">
@@ -37,7 +32,7 @@
 							<p align="center"><img src="img/chicken wings.png" width="80%"></p>
 							<p><a onclick="today()">Chicken Wings</a><span><small><br>IDR 30.000</small></span></p>
 							<p id="today"><small></small></p>
-							<p><a href="http://localhost/new/resto/new/order/foods" class="btn btn-md btn-primary">Order</a></p>
+							<p><a href="http://localhost/new/resto/new/order/fastfoods" class="btn btn-md btn-primary">Order</a></p>
 							<script type="text/javascript">
 								function today(){
 									var text;

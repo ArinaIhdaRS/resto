@@ -1,13 +1,4 @@
 
-
-		<div id="fh5co-main">
-		<!-- nav atas -->
-			<div class="w3-top">
-  				<div class="w3-white w3-xlarge" style="max-width:100%;margin:auto">
-    				<div class="w3-center w3-padding-16"><?=$heads ?></div>
-  				</div>
-			</div>
-		<!--nav atas -->
 		<!-- pesan -->
 			<div class="fh5co-narrow-content">
 				<div class="row">

@@ -1,16 +1,4 @@
 
-		<div id="fh5co-main">
-		<!-- nav atas -->
-			<div class="w3-top">
-  				<div class="w3-white w3-xlarge" style="max-width:100%;margin:auto">
-    				<!--<div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">
-    					<span style="margin-left:100%"><i class="icon-check-circle-o"></i></span>
-    				</div>-->
-    				<div class="w3-center w3-padding-16"><?=$head ?></div>
-  				</div>
-			</div>
-			<br>	
-
 		<!-- konten -->
 			<div class="fh5co-narrow-content">
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">MENU<span></span></h2>
@@ -40,7 +28,7 @@
 							<div class="fh5co-text">
 								<a href="http://localhost/new/resto/new/order/drinks">
 								<h3>Drinks</h3>
-								<p><img src="../img/kt/snack and dessert.png" style="width:80%"></p>
+								<p><img src="../img/kt/drink.png" style="width:80%"></p>
 								</a>
 							</div>
 						</div>
