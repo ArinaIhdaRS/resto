@@ -1,4 +1,4 @@
-	<?php
+<?php
 	//try {
   		//$koneksi = new PDO('mysql:host=localhost; dbname=restoran','root','170897');
 	//} catch (PDOException $e) {

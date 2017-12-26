@@ -1,12 +1,23 @@
+<?php
+session_start();
+ ?>
 <!-- Menu Aside -->
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
 		<!-- Login Logout -->
-			<h1 id="fh5co-logo">
-				<a href="index.html">
-					<img src="images/logo.png" alt="1">
+		<?php if (isset($_SESSION['username']))
+		{
+			echo '<h1 id="fh5co-logo">
+				<a href="http://localhost/new/resto/new/login/">
+					'.$_SESSION["username"].'
 				</a>
-			</h1>
+			</h1>';
+		}
+	else
+	{
+		header("location:http://localhost/new/resto/new/login/");
+	}
+	?>
 		<!-- Login Logout -->
 
 			<nav id="fh5co-main-menu" role="navigation">

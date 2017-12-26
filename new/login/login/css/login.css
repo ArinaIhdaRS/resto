@@ -1,0 +1,153 @@
+#bg{
+	position: absolute;
+		z-index: -1;
+}
+.alert-danger {
+    color: red;
+		font-size: 20px;
+		background-color: #B2A7AA;
+		opacity:0.9;
+		filter:alpha(opacity=50);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+	font-family: arial;
+	font-size: 14px;
+	background: url(back.jpg);
+	background-size: 100%;
+	cursor: default;
+	image-rendering: -webkit-optimize-contrast;
+}
+
+#canvas{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header{
+	font-size: 40px;
+	color: blue;
+	border-top-left-radius: 1000px;
+	border-top-right-radius: 10px;
+	background-color: black;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#menu{
+	background-color: #110307;
+}
+
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li.utama{
+	display: inline-table;
+}
+
+#menu ul li:hover{
+	background-color: #B2A7AA;
+}
+
+#menu ul li a{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 0 10px;
+}
+
+.utama ul{
+	display: none;;
+	position: absolute;
+	z-index: 2;
+}
+
+.utama:hover ul{
+	display: block;
+}
+
+.utama ul li{
+	display: block;
+	background-color: #4E0E21 ;
+	width: 150px;
+	color: #fff;
+}
+
+#isi{
+	min-height: 400px;
+	padding: 20px;
+	border: 1px solid #110307;
+	color: #fff;
+}
+
+#log{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 170px;
+}
+
+#title{
+	width: 333px;
+	height: 280px;
+	margin-top: -160px;
+	margin-left: -433px;
+	padding: 10px;
+	padding-top: 90px;
+	text-align: center;
+	color: #2d3e50;
+	font-size: 30px;
+	background-color: #B2A7AA;
+	opacity:0.9;
+	filter:alpha(opacity=50);
+}
+
+#input
+	{
+		width: 333px;
+		height: 364px;
+		margin-left: -433px;
+		background-color: #B2A7AA;
+		padding: 20px;
+		opacity:0.9;
+		filter:alpha(opacity=50);
+	}
+
+input{
+	padding: 10px;
+	border: 0;
+	width: 300px
+
+}
+
+input:hover{
+	border-color: #110307;
+	border: solid 1px;
+}
+
+#btn{
+	padding: 10px;
+	border: 0;
+	width: 240px;
+	background-color: #2d3e50;
+	width: 300px;
+	color: #fff;
+}
+
+#btn:hover{
+	background-color: #110307;
+}
+
+#tb{
+	width: 100%;
+	border: solid 1px;
+	border-collapse: collapse;
+}
