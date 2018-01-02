@@ -1,17 +1,23 @@
-<?php
-	/*try {
-  $koneksi = new PDO('mysql:host=localhost;
+<?php 
+try {
+	$koneksi = new PDO('mysql:host=localhost;
   dbname=restoran','root','170897');
 } catch (PDOException $e) {
   die($e->getMessage());
 }
 
-$query = $koneksi->prepare('SELECT nama FROM menu');
+$query = $koneksi->prepare('SELECT * FROM menu WHERE kategori = "Makanan"');
+//$query = $koneksi->prepare('SELECT * FROM mahasiswa WHERE nama LIKE "Gayle%"');
+
 $query->execute();
 
-$nama = $query->fetchAll(PDO::FETCH_OBJ);
-*/
-?>
+$food = $query->fetchAll(PDO::FETCH_OBJ);
+//$mahasiswa = $query->fetch(PDO::FETCH_OBJ);
+
+
+
+ ?>
+
 <?php 
 	$head = "ORDER";
 	$heads = "FOODS";

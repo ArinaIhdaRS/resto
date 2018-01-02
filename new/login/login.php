@@ -7,7 +7,7 @@ $database = "restoran";
 $message = "";
 try
 {
-     $connect = new PDO('mysql:host=localhost; dbname=restoran', 'root', '25okt96');
+     $connect = new PDO('mysql:host=localhost; dbname=restoran', 'root', '170897');
      $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
      if(isset($_POST["login"]))
      {

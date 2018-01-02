@@ -22,8 +22,14 @@ session_start();
 
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li><a href="http://localhost/new/resto/new">HOME</a></li>
-					<li><a href="http://localhost/new/resto/new/order">ORDER NOW</a></li>
+				<?php if ($head = "ORDERS") {
+					echo "<li><a href='http://localhost/new/resto/new'>HOME</a></li>
+						  <li class='fh5co-active'><a href='http://localhost/new/resto/new/order'>ORDER HERE</a></li>";
+				} else {
+					echo "<li class='fh5co-active'><a href='http://localhost/new/resto/new'>HOME</a></li>
+					<li><a href='http://localhost/new/resto/new/order'>ORDER HERE</a></li>";
+				}
+				?>
 				</ul>
 			</nav>
 

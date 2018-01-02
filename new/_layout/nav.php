@@ -1,14 +1,17 @@
+<?php
+  
+?>
+
 <div id="fh5co-main">
     <!-- nav atas -->
       <div class="w3-top">
           <div class="w3-white w3-xlarge" style="max-width:100%;margin:auto">
             <div class="w3-center w3-padding-16">
-            <? if():?>
               <p style="margin-left:50%" type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#myModal">Your Orders</p>
-            <? endif; ?>
             </div>
           </div>
       </div>
+      
       <!-- Modal -->
               <div class="modal fade" id="myModal" role="dialog">
                 <div class="modal-dialog modal-lg">

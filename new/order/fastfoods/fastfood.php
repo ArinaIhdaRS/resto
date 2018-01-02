@@ -9,33 +9,21 @@
 					</div>
 				</div>
 				<div class="row">
+					<?php foreach ($fastfood as $menu) : ?>
 					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 						<p class="fh5co-lead">
 							<a href="#">
-								<img src="../../img/egg cheese burger.png" style="width:82%">
+								<img src="../../img/gurame asam manis.png" style="width:82%">
 							</a>
 						</p>
-						<p><a href="detail">Egg Cheese Burger</a><small><br>Rp 16.000,-</small></p>
-						<p><a href="#" class="btn btn-primary btn-outline">Pesan</a></p>
-					</div>
-					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-						<p class="fh5co-lead">
-							<a href="#">
-								<img src="../../img/chicken wings.png" style="width:82%">
-							</a>
+						<p>
+							<a data-toggle="modal" data-target="#myModal" onclick="detail()">
+								<?= $menu->nama ?>
+							</a><br><small id="containerrr">IDR <?= $menu->harga ?></small>
 						</p>
-						<p><a href="detail">Chicken Wings</a><small><br>Rp 30.000,-</small></p>
 						<p><a href="#" class="btn btn-primary btn-outline">Pesan</a></p>
 					</div>
-					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-						<p class="fh5co-lead">
-							<a href="#">
-								<img src="../../img/spaghetti saus ikan.png" style="width:82%">
-							</a>
-						</p>
-						<p><a href="detail">Spaghetti Saus Ikan</a><small><br>Rp 25.000,-</small></p>
-						<p><a href="#" class="btn btn-primary btn-outline">Pesan</a></p>
-					</div>
+					<?php endforeach; ?>
 		
 				</div>
 			</div>
