@@ -21,7 +21,17 @@
                       <h4 class="modal-title">Pesanan Anda</h4>
                     </div>
                     <div class="modal-body">
-                      <p>Tabel Pesanan</p>
+                      <table style="width:100%">
+                        <tr>
+                          <th rowspan="100">Menu</th>
+                          <th rowspan="100">Harga</th>
+                          <th rowspan="100">Jumlah</th>
+                          <th rowspan="100">Total</th>
+                        </tr>
+                        <tr>
+                          <td></td>
+                        </tr>
+                      </table>
                     </div>
                     <div class="modal-footer">
                       <p type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#myModal">Order</p>

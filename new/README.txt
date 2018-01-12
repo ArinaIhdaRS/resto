@@ -1,5 +1,3 @@
-main page two = pesan menu
-main page three = kategori pesanan
-main page four = home
-
-diganti jadi php ya
+- memunculkan daftar makanan dan minuman beserta gambar!, harga!, bahan/detail(otw)
+- rekomendasi menu special/promo yang update!
+- dapat menampilkan total harga pemesanan secara langsung(otw)

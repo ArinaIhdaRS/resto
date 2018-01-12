@@ -13,7 +13,7 @@
 					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 						<p class="fh5co-lead">
 							<a href="#">
-								<img src="../../img/gurame asam manis.png" style="width:82%">
+								<img src="../../img/<?= $menu->gambar ?>" style="width:82%">
 							</a>
 						</p>
 						<p>

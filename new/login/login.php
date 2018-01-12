@@ -2,7 +2,7 @@
 session_start();
 $host = "localhost";
 $username = "root";
-$password = "25okt96";
+$password = "170897";
 $database = "restoran";
 $message = "";
 try
