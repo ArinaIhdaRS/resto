@@ -33,7 +33,7 @@ try
                }
                else
                {
-                    $message = '<label>Username atau password salah!</label>';
+                    $message = '<label>Nomor meja atau password salah!</label>';
                }
           }
      }

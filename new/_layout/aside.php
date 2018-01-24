@@ -24,7 +24,7 @@ session_start();
 				<ul>
 				<?php if ($head = "ORDERS") {
 					echo "<li><a href='http://localhost/new/resto/new'>HOME</a></li>
-						  <li class='fh5co-active'><a href='http://localhost/new/resto/new/order'>ORDER HERE</a></li>";
+						  <li><a href='http://localhost/new/resto/new/order'>ORDER HERE</a></li>";
 				} else {
 					echo "<li class='fh5co-active'><a href='http://localhost/new/resto/new'>HOME</a></li>
 					<li><a href='http://localhost/new/resto/new/order'>ORDER HERE</a></li>";
@@ -34,12 +34,12 @@ session_start();
 			</nav>
 
 			<div class="fh5co-footer">
-				<p><small>&copy; 2017 Kelompok7</span></small></p>
+				<p><small>&copy; 2017 <a href="http://localhost/new/resto/new/about/">Kelompok7</a></span></small></p>
 				<ul>
-					<li><a href="#"><i class="icon-facebook"></i></a></li>
-					<li><a href="#"><i class="icon-twitter"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-envelope"></i></a></li>
+					<li><a href="www.facebook.com"><i class="icon-facebook"></i></a></li>
+					<li><a href="www.twitter.com"><i class="icon-twitter"></i></a></li>
+					<li><a href="www.instagram.com"><i class="icon-instagram"></i></a></li>
+					<li><a href="http://localhost/new/resto/new/contact/"><i class="icon-envelope"></i></a></li>
 					<!--<li><a href="#"><i class="icon-linkedin"></i></a></li>-->
 				</ul>
 			</div>

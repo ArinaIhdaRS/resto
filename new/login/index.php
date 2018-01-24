@@ -1,21 +1,21 @@
 <?php require('login.php');
 ?>
-<link rel="stylesheet" href="login/css/login.css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="login/css/loginn.css" media="screen" title="no title" charset="utf-8">
 <title>Login</title>
 
 
   <div id="log">
 
-    <div id="title">
+    <div id="tittle">
 
-      <p>Selamat Datang<p>Selamat Menikmati</p>
+      <h1 style="font-family: 28 days later;">Welcome!</h1><p>Silakan Isikan Nomor Meja dan Password</p>
       <?php
       if(isset($message))
       {
            echo '<div class="alert-danger">'.$message.'</div>';
       }
       ?>
-
+<body style="background-image:url(background.jpg)" >  </body>
     </div>
 
 
@@ -23,7 +23,7 @@
       <form action="" method="post" name="form1">
 
         <div>
-          <input type="username" name="username" placeholder="Username" required>
+          <input type="username" name="username" placeholder="Table Number" required>
         </div>
 
         <div style="margin-top:10px">
@@ -35,7 +35,7 @@
         </div>
 
       </form>
-        <p><small>&copy; 2017 Kelompok7</span></small></p>
+        <p><small>&copy; 2017 Kelompok 7</span></small></p>
 
     </div>
 

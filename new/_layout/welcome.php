@@ -22,7 +22,7 @@
 							<script type="text/javascript">
 								function bahan(){
 									var text;
-									text = "Lorem ipsum";
+									text = "Gurame asam manis bisa menjadi alternatif pilihan. Renyahnya daging ikan gurame dipadukan dengan saus asam manis";
 									document.getElementById('bahan').innerHTML = text;
 								}	
 							</script>
@@ -36,7 +36,7 @@
 							<script type="text/javascript">
 								function today(){
 									var text;
-									text = "Lorem ipsum";
+									text = "chicken wings adalah makanan ringan terpopuler. Rasanya biasanya pedas, yang bisa bikin penikmatnya berkeringat ketagihan.";
 									document.getElementById('today').innerHTML = text;
 								}	
 							</script>

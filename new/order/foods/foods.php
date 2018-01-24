@@ -1,34 +1,36 @@
 <?php 	 
 //Get all Products
-$query = "SELECT * FROM menu WHERE kategori = 'Fast Food'";
+$query = "SELECT * FROM menu WHERE kategori = 'Makanan'";
 $stmt = $conn->prepare($query);
 $stmt->execute();
 $products = $stmt->fetchAll();
 
 ?>
 
+
 		<!-- pesan -->
 			<div class="fh5co-narrow-content">
 				<div class="row">
 					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 						<br>
-						<h1 class="fh5co-heading-colored">Fast Foods</h1>
+						<h1 class="fh5co-heading-colored">Foods</h1>
 						<br>
 					</div>
 				</div>
-				<div class="row">
+				
+				<div class="row">	
 					<?php foreach($products as $menu):?>
 					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 						<p class="fh5co-lead">
 							<a href="#">
-								<img src="../../img/<?php print $menu['gambar']?>" style="width:82%">
+								<img src="../../img/<?php print $menu['gambar']?>" style="width:82%" data-toggle="modal" data-target="#modaldetail">
 							</a>
 						</p>
 						<p>
-							<a data-toggle="modal" data-target="#myModal" onclick="detail()">
-								<?php print $menu['nama']?>
-							</a><br><small id="containerrr">IDR <?php print $menu['harga']?></small>
+							<a data-toggle="modal" data-target="modaldetail" onclick="detail()"><?php print $menu['nama']?></a>
+							<br><small id="containerrr">IDR <?php print $menu['harga']?></small>
 						</p>
+
 						<form method="post" action="index.php?action=addcart">
 						<p>
 							<button type="submit" class="btn btn-primary btn-outline">Add</button>
@@ -37,16 +39,16 @@ $products = $stmt->fetchAll();
 						</p>
 						</form>
 					</div>
-					<?php endforeach; ?>
-		
+					<?php endforeach; ?>						
 				</div>
-			</div>
+
+
 			<!--pesan >-->
-
-
-			
+		</div>
+		
 		</div>
 	</div>
-	
+
+
 </body>
 </html>
