@@ -29,7 +29,7 @@ try
                if($count > 0)
                {
                     $_SESSION["username"] = $_POST["username"];
-                    header("location:http://localhost/new/resto/new/index.php");
+                    header("location:http://localhost/new/resto/new");
                }
                else
                {

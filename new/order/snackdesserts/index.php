@@ -52,7 +52,14 @@ if($action=='empty') {
 	$_SESSION['menu']= $products;
 	header("Location:index.php");	
 }
-	 
+
+if($action=='empty') {
+	$id = $_GET['id_menu'];
+	$productss = $_SESSION['menu'];
+	unset($productss[$id]);
+	$_SESSION['menu']= $productss;
+	header("Location:index.php");	
+}	 
 
 ?>
 
